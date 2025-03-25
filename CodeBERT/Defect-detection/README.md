@@ -83,7 +83,11 @@ python run.py \
 ### ✅ With VulScope Enabled (Similarity-Based Refinement)
 ```bash
 python run.py \
+  --do_train \
+  --do_eval \
   --do_test \
+  --train_data_file ./../../paired_primevul/range_10/train.jsonl \
+  --eval_data_file ./../../paired_primevul/range_10/val.jsonl \
   --test_data_file ./../../paired_primevul/original/test.jsonl \
   --output_dir ./saved_models/primevul \
   --model_type roberta \
