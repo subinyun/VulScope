@@ -69,7 +69,7 @@ Download the following pretrained models before fine-tuning:
 
 The pretrained model and databases for the **Code Similarity Verification (CSV)** component are available via the following link:
 
-📁 [Download VulScope CSV Checkpoint](https://drive.google.com/drive/folders/179tMJyppz34UuOOLc13A_Y2fTWrcBAzD?usp=sharing)
+📁 [Download VulScope CSV Checkpoint](https://figshare.com/s/e9c8a5514ca12834f089)
 
 After downloading, place all files into the following directory:
 
