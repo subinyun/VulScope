@@ -1,4 +1,4 @@
-# 🔐 Unified Vulnerability Detection with VulScope
+# VulScope: Software Vulnerability Detection via Local Context Analysis and Verification
 
 This repository provides training and evaluation pipelines for vulnerability detection using:
 - **CodeBERT**
