@@ -83,12 +83,14 @@ The expected structure should look like this:
 VulScope/
 ├── checkpoint-best-map/
 │   ├── model.bin
+│   ├── database_5.pkl
 │   ├── paired_cvefixes_database.pkl
 │   └── paired_cvefixes_database_range_10.pkl
 ├── ...
 ```
 
 - `model.bin`: CSV model weights
+- `database_5.pkl`: Full database of paired PrimeVul samples (range 5)
 - `paired_cvefixes_database.pkl`: Full database of paired CVE-fix samples (range 5)
 - `paired_cvefixes_database_range_10.pkl`: Full database of paired CVE-fix samples (range 10)
 
